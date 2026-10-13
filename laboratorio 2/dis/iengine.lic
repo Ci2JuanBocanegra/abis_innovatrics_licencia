@@ -1,0 +1,39 @@
+{
+    "version": "2.1",
+    "contract": {
+        "customer": "COMPANIAINTERNACIONALDEINTEGRACIONSA_IDV Toolkit eval",
+        "expiration": {
+            "day": 13,
+            "month": 12,
+            "year": 2026
+        },
+        "hwids": [
+            "Ib4X7q8AQY1Ftxwp"
+        ],
+        "products": [
+            "idkit",
+            "ansi_iso",
+            "afis_standard_speed",
+            "segmentation",
+            "iface",
+            "afis_premium_speed"
+        ],
+        "idkit": {
+            "database_size": 1000,
+            "max_client_connections": 0
+        },
+        "dot": {
+            "dis": {
+                "enabled": true,
+                "licenseVersion": 3
+            },
+            "evaluation": true
+        },
+        "smartface_embedded": {
+            "enable": true,
+            "palm": true,
+            "palm_liveness": true
+        }
+    },
+    "contract_signature": "bsaxj3TFdLXxE3qxOHJymO63/MXD/Tle4Fp356BjH6n1HEThQhGFTbQKC2ozoUbJpErwObffDf0zi/aeHbUBVrqhsFJQ94MxE1SF+Mn8xIpPhEHgU99J/Bt24w9O3hYDbiRxiEzf2cRvbc+6zYYOD3/LYWxNWsRiSj6/uI69fKo="
+}

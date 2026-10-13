@@ -1,0 +1,47 @@
+{
+    "version": "2.1",
+    "contract": {
+        "customer": "COMPANIAINTERNACIONALDEINTEGRACIONSA_test LFIS",
+        "expiration": {
+            "day": 13,
+            "month": 1,
+            "year": 2027
+        },
+        "hwids": [
+            "KGhqHWYehv2+k2A="
+        ],
+        "products": [
+            "idkit",
+            "iface"
+        ],
+        "idkit": {
+            "database_size": 10000,
+            "max_client_connections": 0
+        },
+        "smartface_embedded": {
+            "enable": true,
+            "face_template_count": 30000,
+            "face": true,
+            "face_liveness": true,
+            "person": true,
+            "person_action": true,
+            "person_reidentification": true,
+            "object": true,
+            "palm": true,
+            "palm_template_count": 30000,
+            "palm_liveness": true
+        },
+        "smartface": {
+            "camera_count": 0,
+            "edgestream_count": 0,
+            "components": {
+                "api": true,
+                "stream_processing": false,
+                "rapid_video_processing": false,
+                "face_autolearn": true
+            },
+            "watchlist_member_count": 10000
+        }
+    },
+    "contract_signature": "ZnFvR9y0gZHY+l/RwVXpOum+ywErXArBn9ls3LpzIzd6cQaHG9Qp6519BO4LVUItzeZSUGJEne0Ybi5ggbS4FMdRspBTKAOrRb18otRxTTulLU8mryQu52CiIcdlZr5GHDyn81QlTIjQ6M8nHA79Ayw8nE4Igvlv+OQWNlFEr6k="
+}
